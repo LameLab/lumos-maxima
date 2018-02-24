@@ -1,0 +1,64 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "three-devs-one-cup",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "849435b9-a12d-4b3c-bfa0-b9839d100c0c",
+        "signInRequired": false
+      },
+      {
+        "intentId": "f725df69-a9ca-4377-b20b-f7b3af8bd984",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "f8aa1d0e-d3c8-4b71-b07f-5395a868492a",
+      "be3ec428-8e4e-4e65-9a92-6018e597709a",
+      "d75c8cb3-95ad-4763-b4d3-8875985fdb9e",
+      "39162179-893e-4d97-909f-6ad9a1f3bef6",
+      "dda774c5-ed1b-467e-adaa-eef53dda121b",
+      "6bfafd0b-a7e3-4ee2-a1dd-936767bc8fe6",
+      "3609fe8b-4696-46d6-9468-9ad3c19a8bf8",
+      "c2e2ccd8-28ed-4106-a908-00e41eec7b0e",
+      "77807e16-5a4d-4cf6-bae8-71035716c336",
+      "23145bc8-e735-4504-8167-882ba99398ce",
+      "0525f235-7ed7-4939-922d-aed7bf875280",
+      "ebf9c38c-047f-4ba7-a945-cbaacdb1b24d",
+      "0861badf-6e07-4bf2-bd4d-e60df222501d",
+      "5b3fee1d-8bc5-41de-b377-3fc71a86b010",
+      "b48ca489-6285-4da0-b40e-19f91cc4adb0",
+      "33d159e0-338a-4c91-a13a-925efeaf838f"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": false
+  },
+  "defaultTimezone": "Asia/Hong_Kong",
+  "webhook": {
+    "url": "[YOUR AWS LAMBDA WEBHOOK URL]",
+    "username": "",
+    "headers": {
+      "x-api-key": "[YOUR AWS LAMBDA API KEY]"
+    },
+    "available": true,
+    "useForDomains": true,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": false
+}

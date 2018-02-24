@@ -1,0 +1,59 @@
+{
+  "id": "3fef86f9-12f1-4343-8cb3-d5377ca47043",
+  "name": "truth-or-dare-spin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-spin",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fe64dcd8-74dc-4de9-9cb6-9d391725ab5e",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "game_started",
+          "value": "#truth-or-dare-spin.game_started",
+          "isList": false
+        },
+        {
+          "id": "a3bf377a-b2a2-4f61-841e-c12e83213f6f",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "check_device",
+          "value": "#truth-or-dare-spin.check_device",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "\u003cspeak\u003e\n    okay, let\u0027s spin the bottle\n\u003c/speak\u003e",
+          "ssml": "\u003cspeak\u003e\n    okay, let\u0027s spin the bottle\n\u003c/speak\u003e",
+          "displayText": "okay, let\u0027s spin the bottle"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, let\u0027s spin the bottle"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517207834,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-spin"
+    }
+  ]
+}

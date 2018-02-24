@@ -1,0 +1,25 @@
+{
+  "dead_inside" : {
+    "devices" : {
+      "guid1" : {
+        "lightStatus" : "BLINK"
+      },
+      "guid2" : {
+        "lightStatus" : "BLINK"
+      }
+    },
+    "masterIO" : {
+      "input" : "SYNC",
+      "linked" : 1,
+      "output" : {
+        "result" : "NONE",
+        "type" : "SYNC"
+      }
+    }
+  },
+  "user_1" : {
+    "guid_1" : {
+      "lightStatus" : "test"
+    }
+  }
+}

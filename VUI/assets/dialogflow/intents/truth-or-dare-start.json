@@ -1,0 +1,68 @@
+{
+  "id": "849435b9-a12d-4b3c-bfa0-b9839d100c0c",
+  "name": "truth-or-dare-start",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-start",
+      "affectedContexts": [
+        {
+          "name": "truth-or-dare-start-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "truth-or-dare-start-followup-2",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4a14ee75-d591-42f4-b60e-9c0c85eb308a",
+          "dataType": "@sys.number-integer",
+          "name": "game_started",
+          "value": "1"
+        },
+        {
+          "id": "7c1f8f51-3a75-43b7-b16e-e18e94fd662d",
+          "dataType": "@sys.number-integer",
+          "name": "check_device",
+          "value": "1"
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "\u003cspeak\u003e\n    okay, here\u0027s how it works. each game set will begin by spinning the bottle, and followed by truth or dare challenge. shall we begin?\n\u003c/speak\u003e",
+          "ssml": "\u003cspeak\u003e\n    okay, here\u0027s how it works. each game set will begin by spinning the bottle, and followed by truth or dare challenge. shall we begin?\n\u003c/speak\u003e",
+          "displayText": "okay, here\u0027s how it works. each game set will begin by spinning the bottle, and followed by truth or dare challenge. shall we begin?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, here\u0027s how it works. each game set will begin by spinning the bottle, and followed by truth or dare challenge. shall we begin?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517190398,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-start"
+    }
+  ]
+}

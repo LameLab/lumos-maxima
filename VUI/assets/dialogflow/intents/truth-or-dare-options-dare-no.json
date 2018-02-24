@@ -1,0 +1,39 @@
+{
+  "id": "23145bc8-e735-4504-8167-882ba99398ce",
+  "parentId": "cc24cd3a-860e-47d0-b64b-f17df0fee14a",
+  "rootParentId": "af026c5f-54a6-46dd-8440-e4ad0d903cac",
+  "name": "truth-or-dare-options-dare-no",
+  "auto": true,
+  "contexts": [
+    "truth-or-dare-options-dare-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-options-dare-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, later!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124745,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-options-dare-no"
+    }
+  ]
+}

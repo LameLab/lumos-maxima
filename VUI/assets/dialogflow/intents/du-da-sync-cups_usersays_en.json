@@ -1,0 +1,60 @@
+[
+  {
+    "id": "6f0ae034-2e89-44c2-8557-2d520b892767",
+    "data": [
+      {
+        "text": "synchronize",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8d7b8c46-c669-45ab-b574-0620ae2382f0",
+    "data": [
+      {
+        "text": "sync",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e9ab7a3f-49cf-4a68-b81f-ed5e149d1ab3",
+    "data": [
+      {
+        "text": "sync cups",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517274917
+  },
+  {
+    "id": "fc72b21e-9ddd-4e13-bd79-2478fdcef93f",
+    "data": [
+      {
+        "text": "synchronize cups",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517274917
+  },
+  {
+    "id": "3e02cdf5-9c31-4196-b698-09e57c2f669b",
+    "data": [
+      {
+        "text": "sync light cups",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1517274917
+  }
+]

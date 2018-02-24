@@ -1,0 +1,33 @@
+{
+  "id": "0861badf-6e07-4bf2-bd4d-e60df222501d",
+  "name": "du-da-test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "du-da-test",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "test 123456"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517458503,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "du-da-test"
+    }
+  ]
+}

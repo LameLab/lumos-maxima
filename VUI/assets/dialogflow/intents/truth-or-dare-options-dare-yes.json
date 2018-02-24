@@ -1,0 +1,58 @@
+{
+  "id": "77807e16-5a4d-4cf6-bae8-71035716c336",
+  "parentId": "cc24cd3a-860e-47d0-b64b-f17df0fee14a",
+  "rootParentId": "af026c5f-54a6-46dd-8440-e4ad0d903cac",
+  "name": "truth-or-dare-options-dare-yes",
+  "auto": true,
+  "contexts": [
+    "truth-or-dare-options-dare-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-options-dare-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Remove your socks with your teeth.",
+            "Fill your mouth with water, and each person in the group must tell the funniest joke they know. If you spit up the water, you have to eat a spoonful of dirt.",
+            "Open Facebook, go to the account of the first person you see, and like every post on their wall going back to a year.",
+            "Let the person to your right put duct tape on any part of your body they choose and rip it off.",
+            "Put a bunch of honey on your nose and coat it with flour.",
+            "Until the next round, talk super loud, like nobody can hear you.",
+            "Pretend you’re a bird and eat cereal off the floor using only your mouth.",
+            "Color one of your front teeth black. (Eyeliner works!)",
+            "Let the group choose 3 random things from the refrigerator an dmix it together. Then you have to eat it.",
+            "Run around outside yelling, “I have lice!”",
+            "Call a random number and sing \"Happy Birthday.\"",
+            "Run around with a pair of underwear on your head.",
+            "Dip you finger in the toilet and then kiss that finger.",
+            "Let everyone look through your search history for 2 minutes.",
+            "Wear lipstick for the rest of the game.",
+            "Let each person in the group slap you as hard as they can on your butt.",
+            "Eat your own booger",
+            "Sniff the armpit of the next person to you"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-options-dare-yes"
+    }
+  ]
+}

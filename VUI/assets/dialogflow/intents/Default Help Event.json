@@ -1,0 +1,34 @@
+{
+  "id": "5b3fee1d-8bc5-41de-b377-3fc71a86b010",
+  "name": "Default Help Event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "content to be added"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517470705,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "HELP"
+    }
+  ]
+}

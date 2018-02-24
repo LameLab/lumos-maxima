@@ -1,0 +1,52 @@
+{
+  "id": "297fcd4c-ae30-4e99-baa9-ca37596c1dcb",
+  "name": "du-da-process-task",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "du-da-process-task",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "98ec12a5-db0e-439c-82be-53d77f6a2143",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "task_type",
+          "value": "#du-da-process-task.task_type",
+          "isList": false
+        },
+        {
+          "id": "a7f5fde4-1635-420c-b8db-d5c017a656e4",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "tries",
+          "value": "#du-da-process-task.tries",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "* awkward crickets sound"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517291940,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "du-da-process-task"
+    }
+  ]
+}

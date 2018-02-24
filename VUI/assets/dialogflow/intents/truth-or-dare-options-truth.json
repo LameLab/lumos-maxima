@@ -1,0 +1,54 @@
+{
+  "id": "0a1db9ba-ac91-4888-a4f4-0f6cdc3fc41d",
+  "parentId": "af026c5f-54a6-46dd-8440-e4ad0d903cac",
+  "rootParentId": "af026c5f-54a6-46dd-8440-e4ad0d903cac",
+  "name": "truth-or-dare-options-truth",
+  "auto": true,
+  "contexts": [
+    "truth-or-dare-options-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-options-truth",
+      "affectedContexts": [
+        {
+          "name": "truth-or-dare-options-truth-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0a4db783-2401-495e-a4e5-a684f3d5eda3",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "game_started",
+          "value": "#truth-or-dare-options-followup.game_started",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "do you prefer me to ask the question?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124811,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-options-truth"
+    }
+  ]
+}

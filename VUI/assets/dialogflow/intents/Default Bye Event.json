@@ -1,0 +1,37 @@
+{
+  "id": "33d159e0-338a-4c91-a13a-925efeaf838f",
+  "name": "Default Bye Event",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "adieu",
+            "adios",
+            "astalavista",
+            "sampai jumpa"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517470592,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BYE"
+    }
+  ]
+}

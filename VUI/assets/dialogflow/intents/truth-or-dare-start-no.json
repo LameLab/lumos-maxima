@@ -1,0 +1,52 @@
+{
+  "id": "0525f235-7ed7-4939-922d-aed7bf875280",
+  "parentId": "849435b9-a12d-4b3c-bfa0-b9839d100c0c",
+  "rootParentId": "849435b9-a12d-4b3c-bfa0-b9839d100c0c",
+  "name": "truth-or-dare-start-no",
+  "auto": true,
+  "contexts": [
+    "truth-or-dare-start-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-start-no",
+      "affectedContexts": [
+        {
+          "name": "truth-or-dare-start-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "\u003cspeak\u003e\n    geez, okay\n\u003c/speak\u003e",
+          "ssml": "\u003cspeak\u003e\n    geez, okay\n\u003c/speak\u003e",
+          "displayText": "geez, okay"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "geez, okay"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124745,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-start-no"
+    }
+  ]
+}

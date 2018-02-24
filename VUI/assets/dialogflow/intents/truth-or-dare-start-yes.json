@@ -1,0 +1,71 @@
+{
+  "id": "f725df69-a9ca-4377-b20b-f7b3af8bd984",
+  "parentId": "849435b9-a12d-4b3c-bfa0-b9839d100c0c",
+  "rootParentId": "849435b9-a12d-4b3c-bfa0-b9839d100c0c",
+  "name": "truth-or-dare-start-yes",
+  "auto": true,
+  "contexts": [
+    "truth-or-dare-start-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-start-yes",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b46b0c05-4dde-460c-ad34-d6883ecd5879",
+          "required": true,
+          "dataType": "@sys.number-integer",
+          "name": "game_started",
+          "value": "#truth-or-dare-start-followup.game_started",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "do you want to play or not?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "5cad1c59-522d-4e04-8877-dfcfdb84578a",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "check_device",
+          "value": "#truth-or-dare-start-followup.check_device",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "\u003cspeak\u003e\n    okay, shuffling\n\u003c/speak\u003e",
+          "ssml": "\u003cspeak\u003e\n    okay, shuffling\n\u003c/speak\u003e",
+          "displayText": "okay, shuffling"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, shuffling"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-start-yes"
+    }
+  ]
+}

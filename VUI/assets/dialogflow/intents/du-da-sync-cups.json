@@ -1,0 +1,43 @@
+{
+  "id": "01f0c73b-dcf1-4e44-bbb9-6b74d6cc741e",
+  "name": "du-da-sync-cups",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "du-da-sync-cups",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    okay, syncing now. Once synced, you will see that all the light cups lights up\n\u003c/speak\u003e",
+          "displayText": "okay, syncing now. Once synced, you will see that all the light cups lights up"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "okay, syncing now. Once synced, you will see that all the light cups lights up"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517274917,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "du-da-sync-cups"
+    }
+  ]
+}

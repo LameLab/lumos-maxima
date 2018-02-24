@@ -1,0 +1,41 @@
+{
+  "id": "e958ac9c-bcd8-4648-8e06-b0876597e579",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hi! Welcome to Goblet!",
+            "Hello! Welcome to Goblet!",
+            "Good day! Welcome to Goblet!",
+            "Greetings! Welcome to Goblet!",
+            "Hallo! Selamat datang di Goblet"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}
