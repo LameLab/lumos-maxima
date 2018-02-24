@@ -1,0 +1,57 @@
+{
+  "id": "af026c5f-54a6-46dd-8440-e4ad0d903cac",
+  "name": "truth-or-dare-options",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-options",
+      "affectedContexts": [
+        {
+          "name": "truth-or-dare-options-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "86335e42-4d35-4080-99e2-bb43c3715aab",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "game_started",
+          "value": "#truth-or-dare-options.game_started",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "\u003cspeak\u003e\n    okay\n    \u003cbreak time\u003d\".5s\"/\u003e\n    here we go\n    \u003cbreak time\u003d\".5s\"/\u003e\n    truth or dare?\n\u003c/speak\u003e",
+          "ssml": "\u003cspeak\u003e\n    okay\n    \u003cbreak time\u003d\".5s\"/\u003e\n    here we go\n    \u003cbreak time\u003d\".5s\"/\u003e\n    truth or dare?\n\u003c/speak\u003e",
+          "displayText": "okay, here we go, truth or dare?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "truth or dare?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517205103,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "truth-or-dare-options"
+    }
+  ]
+}

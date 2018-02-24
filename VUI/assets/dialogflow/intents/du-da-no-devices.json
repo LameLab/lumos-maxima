@@ -1,0 +1,42 @@
+{
+  "id": "f8aa1d0e-d3c8-4b71-b07f-5395a868492a",
+  "name": "du-da-no-devices",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "du-da-no-devices",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "textToSpeech": "\u003cspeak\u003e\n    sorry\n    \u003cbreak time\u003d\".5s\"/\u003e\n     i can\u0027t find any light cups for this game. please sync up all the light cups first\n\u003c/speak\u003e",
+          "ssml": "\u003cspeak\u003e\n    sorry\n    \u003cbreak time\u003d\".5s\"/\u003e\n     i can\u0027t find any light cups for this game. please sync up all the light cups first\n\u003c/speak\u003e",
+          "displayText": "sorry, i can\u0027t find any light cups for this game. please sync up all the light cups first"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "sorry,  i can\u0027t find any light cups for this game. please sync up all the light cups. To sync up say \"sync cups\""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1517190573,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "du-da-no-devices"
+    }
+  ]
+}

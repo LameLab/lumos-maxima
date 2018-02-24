@@ -1,0 +1,11 @@
+{
+  "name": "three-devs-one-cup",
+  "version": "0.0.1",
+  "description": "three devs one cup firebase functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kencana Kesuma",
+  "license": "MIT"
+}

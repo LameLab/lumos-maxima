@@ -1,0 +1,16 @@
+{
+  "name": "three-devs-one-cup",
+  "version": "0.0.1",
+  "description": "three devs one cup alexa skills with Dialogflow",
+  "author": "Kencana Kesuma",
+  "main": "index.js",
+  "dependencies": {
+    "alexa-sdk": "^1.0.25",
+    "apiai": "^4.0.3",
+    "aws-sdk": "^2.188.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "rm -rf keys && mkdir keys && cp -rf ../../keys/alexa-dialogflow-keys.js keys/alexa-dialogflow-keys.js && zip -r alexa-skills.zip *"
+  }
+}

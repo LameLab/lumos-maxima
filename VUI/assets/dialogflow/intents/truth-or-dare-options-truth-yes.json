@@ -1,0 +1,52 @@
+{
+  "id": "3609fe8b-4696-46d6-9468-9ad3c19a8bf8",
+  "parentId": "0a1db9ba-ac91-4888-a4f4-0f6cdc3fc41d",
+  "rootParentId": "af026c5f-54a6-46dd-8440-e4ad0d903cac",
+  "name": "truth-or-dare-options-truth-yes",
+  "auto": true,
+  "contexts": [
+    "truth-or-dare-options-truth-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "truth-or-dare-options-truth-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "What was the last thing you searched for on your phone?",
+            "If you had to choose between going naked or having your thoughts appear in thought bubbles above your head for everyone to read, which would you choose?",
+            "After you\u0027ve dropped a piece of food, what\u0027s the longest time you\u0027ve left it on the ground and then ate it?",
+            "Have you ever tasted a booger?",
+            "Have you ever peed in the pool?",
+            "Have you ever farted in an elevator?",
+            "What are some things you think about when sitting on the toilet?",
+            "What was your most embarrassing moment in public?",
+            "You’re in a public restroom and just went number 2, then you realized your stall has no toilet paper. What do you do?",
+            "How would you rate your looks on a scale of 1 to 10?",
+            "Have you ever farted and then blamed someone else?",
+            "Have you ever waved at someone thinking they saw you when really they didn\u0027t? What did you do when you realized it?",
+            "Would you rather be caught picking your nose or picking a wedgie?",
+            "Who is the hottest? Hagrid, Dumbledore, or Dobby?",
+            "What\u0027s the most useless piece of knowledge you know?",
+            "Do you frequently stalk anyone on social media? Who?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124771,
+  "fallbackIntent": false,
+  "events": []
+}

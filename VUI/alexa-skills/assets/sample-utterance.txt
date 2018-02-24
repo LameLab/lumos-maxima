@@ -1,0 +1,3 @@
+ApiIntent {sync|Text}
+ApiIntent {sync cups|Text}
+ApiIntent {sync light cups|Text}

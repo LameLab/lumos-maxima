@@ -1,0 +1,19 @@
+{
+  "name": "three-devs-one-cup",
+  "version": "0.0.1",
+  "description": "three devs one cup aws lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "rm -rf keys && mkdir keys && cp -rf ../../keys/database-details.js keys/database-details.js && cp -rf ../../keys/firebase-service-key.json keys/firebase-service-key.json && zip -r aws-lambda-webhook.zip *"
+  },
+  "author": "Kencana Kesuma",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^1.7.0",
+    "events": "^1.1.1",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5"
+  },
+  "private": true
+}
