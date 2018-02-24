@@ -1,7 +1,7 @@
 {
-  "name": "three-devs-one-cup",
+  "name": "lumos-maxima",
   "version": "0.0.1",
-  "description": "three devs one cup firebase functions",
+  "description": "lumos-maxima firebase functions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

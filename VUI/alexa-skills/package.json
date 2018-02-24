@@ -1,7 +1,7 @@
 {
-  "name": "three-devs-one-cup",
+  "name": "lumos-maxima",
   "version": "0.0.1",
-  "description": "three devs one cup alexa skills with Dialogflow",
+  "description": "lumos-maxima alexa skills with Dialogflow",
   "author": "Kencana Kesuma",
   "main": "index.js",
   "dependencies": {
