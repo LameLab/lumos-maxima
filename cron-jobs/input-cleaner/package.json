@@ -1,0 +1,16 @@
+{
+  "name": "three-devs-one-cup",
+  "version": "0.0.1",
+  "description": "three devs one cup aws lambda functions cron job to clear input collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "rm -rf keys && mkdir keys && cp -rf ../../keys/database-details.js keys/database-details.js && cp -rf ../../keys/firebase-service-key.json keys/firebase-service-key.json && zip -r aws-lambda-input-cron.zip *"
+  },
+  "author": "Kencana Kesuma",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-admin": "~4.2.1"
+  },
+  "private": true
+}
