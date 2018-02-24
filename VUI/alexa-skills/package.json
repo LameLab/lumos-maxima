@@ -11,6 +11,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "zip": "zip -r alexa-skills.zip *"
+    "zip": "rm -rf keys && mkdir keys && cp -rf ../../keys/alexa-dialogflow-keys.js keys/alexa-dialogflow-keys.js && zip -r alexa-skills.zip *"
   }
 }

@@ -12,7 +12,7 @@ const _setAlexaSessionId = (sessionId) => {
 };
 
 const _isResponseIncompleted = (response) => {
-  if (response.result.actionIncomplete) {
+  if (response.result.actionIncomplete || response.result.action === 'FALLBACK' || response.result.action === 'HELP') {
     return true;
   }
 

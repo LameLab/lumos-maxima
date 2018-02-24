@@ -8,7 +8,7 @@ const Actions = require('./libs/actions');
 const _actions = new Actions();
 
 exports.handler = (event, context, callback) => {
-  // this is important, so that connection to Firebase can be made
+  // this is important, so that callback can be triggered properly
   context.callbackWaitsForEmptyEventLoop = false;
 
   console.log(`REQUEST-HEADERS: ${JSON.stringify(event.headers)}`);

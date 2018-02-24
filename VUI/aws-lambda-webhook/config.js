@@ -80,7 +80,7 @@ module.exports = {
     //   action: 'doNothing'
     // },
     unknownInput: {
-      intent: 'input.unknown',
+      intent: 'FALLBACK',
       action: 'doNothing'
     },
     processTask: {
