@@ -1,0 +1,3 @@
+rootProject.name = 'ThreeDevsOneCup'
+
+include ':app'
