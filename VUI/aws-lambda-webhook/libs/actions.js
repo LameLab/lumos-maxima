@@ -120,7 +120,8 @@ class Actions {
     return new Promise((resolve, reject) => {
       const obj = {
         id: 0,
-        mode
+        mode,
+        timestamp: new Date().getTime()
       };
 
       const pushRef = this._inputDBRef.push();
