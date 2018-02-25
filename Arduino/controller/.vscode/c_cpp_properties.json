@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "path": [
+                    "/Users/odooley/Library/Arduino15/packages/",
+                    "/Users/odooley/Library/Arduino15/staging/libraries/",
+                    "/Users/odooley/Library/Arduino15/staging/packages/",
+                    "/Users/odooley/Documents/Arduino/libraries/",
+                    "/Users/odooley/Documents/Arduino/hardware/esp8266com/esp8266",
+                    "/Users/odooley/Documents/Arduino/hardware/esp8266comm/esp8266/variants/d1_mini/",
+                    "/Users/odooley/Documents/Arduino/libraries/firebase-arduino-master-kotl/src/",
+                    "/Users/odooley/Documents/Arduino/libraries/painlessMesh-master-1bab045503bff21f5e7b43ea120912e227835346/src/",
+                    "/Users/odooley/Documents/Arduino/libraries/PacketSerial/src",
+                    "${workspaceRoot}",
+                    "/Users/odooley/Documents/Arduino/libraries/CmdMessenger",
+                    "/Users/odooley/Documents/Arduino/libraries/TaskScheduler/src"
+                ],
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "clang-x64",
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        }
+    ],
+    "version": 3
+}
