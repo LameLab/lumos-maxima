@@ -1,3 +1,6 @@
+# Try the Alexa Skill
+The Alexa Skill can be [enabled here](https://www.amazon.com/dp/B079Z96XJ4/ref=sr_1_2?ie=UTF8&qid=1519624063&sr=8-2&keywords=lumos+maxima).
+
 # Stack
 
 developed using the following stack:
